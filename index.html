@@ -1,16 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TO DO LIST</title>
-    <link rel="stylesheet" href="css/Style.css"/>
-</head>
-<body>
-    <h1>TO DO LIST</h1> 
-    <input type="text" />
-    <button> AGREGAR </button>
-    <div>TODO LO QUE CONTIENE EL DIV <BR/>NUEVA PARTE DIV   </div>
-</body>
+<html>
+  <head>
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src = "main.js"></script>
+  </head>
+  <body>
+    <script>
+        console.log("Hola planeta");
+    </script>
+    <div class="container">
+      <h1 id ="titulo" >Lista de Tareas</h1>
+      <div class="input-container">
+        <input type="text" placeholder="Escribir tarea" class="task-input" />
+        <button onclick = "apretar()" type="button" class="add-task-btn">Añadir Tarea</button>
+      </div>
+      <ul class="task-list">
+        <!-- Aquí se añadirán las tareas -->
+        <li id="Lista de Tareas" >Arreglar los estilos</li>
+      </ul>
+    </div>
+  </body>
 </html>
